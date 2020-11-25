@@ -1,3 +1,8 @@
+html {
+    padding: 10px;
+    background-color:  rgb(190, 188, 188);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,22 +10,32 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color:  rgb(190, 188, 188);
-  background-image: url(images/beach.jpg);
-    width: 50vw;
-    height: 900px;
+  background-image: url(images/beach_cut.jpg);
   background-position: right;
   background-repeat: no-repeat;
   background-size: 50%;
-  position: relative;
 }
 
-main, header, footer {
+main {
+    width: 50vw;
+    height: 600px;
+    padding: 23px;
 background-color: honeydew;
 }
 
+ul {
+    text-align: right;
+}
+
 ul li {
+padding-right: 10px;
   list-style-type: none;
   display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 li a:hover {
@@ -28,7 +43,18 @@ li a:hover {
 }
 h1 {
     font-style: italic;
+    padding-top: 80px;
   }
+
+p.main {
+margin: 20px 0 130px 0;
+  }
+footer p {
+    font-size: small;
+    text-align: right;
+    background-color:  rgb(190, 188, 188);
+    padding: 12px;
+}
 
 
 
